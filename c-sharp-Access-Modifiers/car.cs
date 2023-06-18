@@ -8,11 +8,11 @@ namespace c_sharp_Access_Modifiers
 {
     internal class car
     {
-        string engine;
-        int numberofweel;
-        int numberofdoors;
-        string geartype;
-        string color;
+        public string engine;
+        public int numberofweel;
+        public int numberofdoors;
+        public string geartype;
+        public string color;
 
         public car(string engine, int numberofweel, int numberofdoors, string geartype, string color) 
         {

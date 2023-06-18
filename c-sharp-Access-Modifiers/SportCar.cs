@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,14 @@ namespace c_sharp_Access_Modifiers
         {
             this.nitres = nitres;
             this.specialseatbelt = specialseatbelt;
+
+            
+        }
+
+        public void printData()
+        {
+
+            System.Console.WriteLine( engine + " " + numberofweel + " " + numberofdoors + " "+geartype + " " + color + nitres + " " +specialseatbelt);
         }
     }
 }
