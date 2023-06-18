@@ -18,6 +18,8 @@ internal class Program
         Class1 anyvalue2 = new Class1(7);
         Console.WriteLine(Class1.somenumber);
 
+        Console.WriteLine(anyvalue2.getNumberofstaticweels()); 
+        
 
 
 

@@ -18,10 +18,12 @@
         
         }
 
-        public static void getNumberofstaticweels()
+        public int  getNumberofstaticweels()
 
         {
-            Console.WriteLine("TEST");
+            somenumber = somenumber * 2;
+            return numberofweel * 4;
+
         }
     }
 }
