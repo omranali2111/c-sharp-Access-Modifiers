@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-Access-Modifiers", "c-sharp-Access-Modifiers\c-sharp-Access-Modifiers.csproj", "{6CB72CF5-47C0-4662-80D4-F269C01AD477}"
+	ProjectSection(ProjectDependencies) = postProject
+		{409AE5F7-81BF-4328-B209-73CC6135023B} = {409AE5F7-81BF-4328-B209-73CC6135023B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{409AE5F7-81BF-4328-B209-73CC6135023B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CB72CF5-47C0-4662-80D4-F269C01AD477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB72CF5-47C0-4662-80D4-F269C01AD477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB72CF5-47C0-4662-80D4-F269C01AD477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB72CF5-47C0-4662-80D4-F269C01AD477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409AE5F7-81BF-4328-B209-73CC6135023B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409AE5F7-81BF-4328-B209-73CC6135023B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409AE5F7-81BF-4328-B209-73CC6135023B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409AE5F7-81BF-4328-B209-73CC6135023B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DF761A1-542D-410F-80E5-A9BEFF048E1D}
+	EndGlobalSection
+EndGlobal
